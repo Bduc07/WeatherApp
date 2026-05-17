@@ -41,6 +41,17 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+# Local secrets
+.env
+**/.env
+
+# Django local files
+db.sqlite3
+**/db.sqlite3
+__pycache__/
+**/__pycache__/
+*.pyc
+
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
